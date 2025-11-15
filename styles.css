@@ -45,7 +45,6 @@ body.dark-mode .navbar {
 .logo-container {
     display: flex;
     align-items: center;
-    gap: 10px;
 }
 
 .logo {
@@ -69,17 +68,12 @@ body.dark-mode .logo span {
     color: #e0e0e0;
 }
 
-/* Dark mode logo - visible only in desktop dark mode */
+/* Remove dark logo styles */
 .dark-logo {
     display: none;
-    height: 30px;
-    width: auto;
 }
 
-body.dark-mode .dark-logo {
-    display: block;
-}
-
+/* Rest of your CSS remains exactly the same */
 /* Navigation moved to right side */
 .nav-links {
     display: flex;
@@ -181,7 +175,6 @@ body.dark-mode .dark-mode-toggle {
 body.dark-mode .bar {
     background: #e0e0e0;
 }
-
 
 /* Hero Section */
 .hero {
@@ -1395,11 +1388,6 @@ body.dark-mode .footer p {
     .resume-section.education {
         margin-left: 0;
         padding-left: 25px;
-    }
-    
-    /* Hide dark logo on mobile */
-    .dark-logo {
-        display: none !important;
     }
 }
 
